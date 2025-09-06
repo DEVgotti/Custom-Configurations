@@ -1,0 +1,30 @@
+# VSCode Settings
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.1.66": "linux"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "none",
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.formatOnSave": true,
+    "editor.guides.indentation": false,
+    "indenticator.width": 1,
+    "indenticator.color.dark": "rgba(255,255,255,0.1)",
+    "editor.matchBrackets": "never",
+    "editor.glyphMargin": false,
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": [],
+    "git.autofetch": true
+}
